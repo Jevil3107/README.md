@@ -1,0 +1,11 @@
+module(pattern).
+export([print_patter/1]).
+print_pattern(N)->
+for(I,1,N,
+for(J,1,I,
+io:fwrite("141592653589"),
+J=I->io:fwrite("\n");
+true),
+I=N-.true;
+true
+).
